@@ -1,51 +1,50 @@
-# fonts
 
-webfonts: "#"  # /assets/static/fonts/main.css
+webfonts: "#"  # https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro:wght@400;600;700;900&display=swap
 
 # Libraries
 
 jquery:
-  js: /assets/static/jquery/jquery.min.js
+  js: https://cdn.jsdelivr.net/npm/jquery@3/dist/jquery.min.js
 
 bootstrap:
-  css: /assets/static/bootstrap/bootstrap.min.css
-  js: /assets/static/bootstrap/bootstrap.bundle.min.js
+  css: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/css/bootstrap.min.css
+  js: https://cdn.jsdelivr.net/npm/bootstrap@4/dist/js/bootstrap.bundle.min.js
 
 bootstrap-toc:
-  css: /assets/static/bootstrap-toc/bootstrap-toc.min.css
-  js: /assets/static/bootstrap-toc/bootstrap-toc.min.js
+  css: https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.css
+  js: https://cdn.jsdelivr.net/gh/afeld/bootstrap-toc@1.0.1/dist/bootstrap-toc.min.js
 
 fontawesome:
-  css: /assets/static/fontawesome-free/css/all.min.css
+  css: https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@5.11.2/css/all.min.css
 
 search:
-  js: /assets/static/simple-jekyll-search/simple-jekyll-search.min.js
+  js: https://cdn.jsdelivr.net/npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js
 
 mermaid:
-  js: /assets/static/mermaid/mermaid.min.js
+  js: https://cdn.jsdelivr.net/npm/mermaid@8/dist/mermaid.min.js
 
 dayjs:
   js:
-    common: /assets/static/dayjs/dayjs.min.js
-    locale: /assets/static/dayjs/locale/en.min.js
-    relativeTime: /assets/static/dayjs/plugin/relativeTime.min.js
-    localizedFormat: /assets/static/dayjs/plugin/localizedFormat.min.js
+    common: https://cdn.jsdelivr.net/npm/dayjs@1/dayjs.min.js
+    locale: https://cdn.jsdelivr.net/npm/dayjs@1/locale/:LOCALE.min.js
+    relativeTime: https://cdn.jsdelivr.net/npm/dayjs@1/plugin/relativeTime.min.js
+    localizedFormat: https://cdn.jsdelivr.net/npm/dayjs@1/plugin/localizedFormat.min.js
 
 countup:
-  js: /assets/static/countup.js/countUp.min.js
+  js: https://cdn.jsdelivr.net/npm/countup.js@1.9.3/dist/countUp.min.js
 
 magnific-popup:
-  css: /assets/static/magnific-popup/magnific-popup.css
-  js: /assets/static/magnific-popup/jquery.magnific-popup.min.js
+  css: https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/magnific-popup.min.css
+  js: https://cdn.jsdelivr.net/npm/magnific-popup@1/dist/jquery.magnific-popup.min.js
 
 lozad:
-  js: /assets/static/lozad/lozad.min.js
+  js: https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js
 
 clipboard:
-  js: /assets/static/clipboard/clipboard.min.js
+  js:  https://cdn.jsdelivr.net/npm/clipboard@2/dist/clipboard.min.js
 
 polyfill:
-  js: /assets/static/polyfill/polyfill.min.js
+  js: https://polyfill.io/v3/polyfill.min.js?features=es6
 
 mathjax:
-  js: "#"  # /assets/static/mathjax/tex-chtml.js
+  js: "#"  # https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js
